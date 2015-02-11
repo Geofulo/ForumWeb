@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Foro de Comunicación</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/mForm.css" />
+    <link rel="stylesheet" type="text/css" href="css/mFormElementSelected.css" />
+
+    <script type="text/javascript" src="scripts/mootools-core.js"></script>
+    <script type="text/javascript" src="scripts/mootools-more.js"></script>
+
+    <script type="text/javascript" src="scripts/mForm.Core.js"></script>
+    <script type="text/javascript" src="scripts/mForm.Element.js"></script>
+    <script type="text/javascript" src="srcipts/mForm.Element.Selected.js"></script>
+    <script type="text/javascript" src="scripts/mForm.Submit.js"></script>
+
+    <style type="text/css">
+        body { font-family:"Lucida Grande", Lucida, Verdana, Arial, sans-serif; font-size:14px; color:#353535; }
+        a { color:#406080; }
+        h2 { margin-top:40px; }
+    </style>
+    
+   
+</head>
+<body>
+<div id="header-wrapper">
+    <div id="header">
+        <div id="menu">
+            <ul>
+                <li><a href="agregarusuario.html" class="first">Agregar Usuarios</a></li>
+		<li><a href="editarusuarios.html">Editar Usuarios</a></li>
+                <li><a href="#">Ver Gráficas</a></li>
+                <li><a href="ingresar.html">Cerrar Sesión</a></li>
+            </ul>
+	</div>	
+    </div>
+</div>
+<div id="logo">
+    <h1><a href="#">Foro de Comunicación</a></h1>
+    <p>Tecnologias para la Web</p>
+</div>
+<div id="page">
+    <div id="page-bgtop">
+        <div id="content">
+        <div class="post">
+            <div style="width:700px; margin:auto">
+            <h1>Elige el usuario para ver su gráfica</h1><br><br><br>
+            <form name="example_form" id="example_form" action="ServletVerGraficas" method="POST">
+                <input type="text" name="correo" id="email" placeholder="Correo Electrónico" data-validate="email" style="width:250px" /><br><br>
+                <input type="submit" class="button_green" style="width:262px" value="Ver Gráfica" />
+            </form> <br><br>
+            <!--<form name="example_form" id="example_form" action="ServletVerGraficas2" method="POST">
+                <input type="submit" class="button_yellow" style="width:262px" value="Ver Graficas de Materias" />
+            </form>-->
+            </div>
+        </div>
+        </div>
+        <div style="clear:both">&nbsp;
+        </div>
+    </div>	
+    </div>
+</body>
+</html>

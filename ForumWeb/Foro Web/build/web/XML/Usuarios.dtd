@@ -1,0 +1,10 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT Usuarios (Usuario)+>
+<!ELEMENT Usuario (Nombre_de_usuario, Correo, Contrasenia, Biografia?, Materia*)>
+<!ATTLIST Usuario tipo (administrador|profesor|alumno) #REQUIRED>
+<!ELEMENT Nombre_de_usuario (#PCDATA)>
+<!ELEMENT Correo (#PCDATA)>
+<!ELEMENT Contrasenia (#PCDATA)>
+<!ELEMENT Biografia (#PCDATA)>
+<!ELEMENT Materia (#PCDATA)>
+<!ATTLIST Materia idmat ID #REQUIRED>

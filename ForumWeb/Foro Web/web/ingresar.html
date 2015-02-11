@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Foro de Comunicación</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/mForm.css" />
+    <link rel="stylesheet" type="text/css" href="css/mFormElementSelected.css" />
+
+    <script type="text/javascript" src="scripts/mootools-core.js"></script>
+    <script type="text/javascript" src="scripts/mootools-more.js"></script>
+
+    <script type="text/javascript" src="scripts/mForm.Core.js"></script>
+    <script type="text/javascript" src="scripts/mForm.Element.js"></script>
+    <script type="text/javascript" src="srcipts/mForm.Element.Selected.js"></script>
+    <script type="text/javascript" src="scripts/mForm.Submit.js"></script>
+
+    <style type="text/css">
+        body { font-family:"Lucida Grande", Lucida, Verdana, Arial, sans-serif; font-size:14px; color:#353535; }
+        a { color:#406080; }
+        h2 { margin-top:40px; }
+    </style>
+    
+    <!--<script type="text/javascript">
+        window.addEvent('domready', function() {	
+            new mForm.Submit({
+                form: 'example_form'
+            });	
+        });
+    </script>-->
+</head>
+<body>
+<div id="header-wrapper">
+    <div id="header">
+        <div id="menu">
+            <ul>
+		<li><a href="#">Login</a></li>
+            </ul>
+	</div>	
+    </div>
+</div>
+<div id="logo">
+    <h1><a href="#">Foro de Comunicación</a></h1>
+    <p>Tecnologias para la Web</p>
+</div>
+<div id="page">
+    <div id="page-bgtop">
+        <div id="content">
+        <div class="post">
+            <h1>Login</h1><br><br><br>               
+            <form action="ServletIngresar" method="POST">
+                <input type="text" name="correo" id="email" placeholder="Correo Electrónico" data-validate="email" style="width:250px" /><br><br>                        
+                <input type="password" name="contrasenia" id="subject" placeholder="Contraseña" style="width:250px" /><br><br>
+                <input type="submit" class="button_green" style="width:262px" />
+            </form>
+        </div>        
+        </div>
+        <div style="clear:both">&nbsp;
+        </div>
+    </div>	
+</div>
+</body>
+</html>

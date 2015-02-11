@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Usuarios SYSTEM "Usuarios.dtd">
+
+<Usuarios>
+  <Usuario tipo="administrador">
+    <Nombre_de_usuario>Admin foro</Nombre_de_usuario>
+    <Correo>admin@web.com</Correo>
+    <Contrasenia>admin</Contrasenia>    
+  </Usuario>
+  <Usuario tipo="profesor">
+    <Nombre_de_usuario>pepe</Nombre_de_usuario>
+    <Correo>pepe@live.com.mx</Correo>
+    <Contrasenia>43434343</Contrasenia>
+    <Biografia>Profesor de ESCOM</Biografia>
+    <Materia idmat="m1">Probabilidad</Materia>
+    <Materia idmat="m2">Tecnologias para la Web</Materia>
+    <Materia idmat="m3">ADOO</Materia>
+  </Usuario>
+  <Usuario tipo="alumno">
+    <Nombre_de_usuario>geo</Nombre_de_usuario>
+    <Correo>ghbjh@gmail.com</Correo>
+    <Contrasenia>contra</Contrasenia>
+    <Biografia>Alumno de ESCOM</Biografia>
+    <Materia idmat="m1">Probabilidad</Materia>
+    <Materia idmat="m2">Tecnologias para la Web</Materia>
+  </Usuario>
+  <Usuario tipo="alumno">
+    <Nombre_de_usuario>Geovanni Fuentes</Nombre_de_usuario>
+    <Correo>geofulo@gmail.com</Correo>
+    <Contrasenia>contra</Contrasenia>
+    <Biografia>Alumno de ESCOM, va en 5to semestre</Biografia>
+  </Usuario>
+</Usuarios>
